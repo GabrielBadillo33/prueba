@@ -1,0 +1,183 @@
+body {
+    background: linear-gradient(to right, #2770a1, #000000);
+}
+
+.navbar {
+    background: linear-gradient(to right, #000000, #2770a1);
+    /* Degradado negro a blanco */
+    font-size: 18px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0 10px;
+    /* Espacio entre los elementos de la nav */
+}
+
+.nav-link {
+    color: white !important;
+    /* Color blanco para los enlaces de la navbar */
+}
+
+.nav-link:hover {
+    color: black !important;
+    /* Color negro en hover para los enlaces de la navbar */
+}
+
+.logo {
+    height: 40px;
+    /* Ajusta el tamaño del logo */
+    width: auto;
+}
+
+.carousel-section {
+    margin: 40px 0;
+    padding: 0 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90em;
+    /* Establece un ancho máximo para el carrusel */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centra el carrusel horizontalmente */
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 400px;
+    /* Ajusta la altura de la imagen */
+    width: 100%;
+    /* Asegura que la imagen ocupe el 100% del ancho disponible */
+    object-fit: cover;
+    filter: brightness(0.9);
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+
+.welcome-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+    /* Fondo blanco para la sección de bienvenida */
+    border-bottom: 2px solid #007bff;
+    /* Línea inferior azul para darle un toque profesional */
+}
+
+.welcome-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.welcome-title {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+
+.gallery-section {
+    padding: 40px 0;
+    background: linear-gradient(to right, #2770a1, #000000);
+    /* Fondo claro para la sección */
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra suave para las tarjetas */
+    overflow: hidden;
+    margin-bottom: 30px;
+    /* Espacio entre las tarjetas */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+    /* Zoom suave al hacer hover sobre la imagen */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+    /* Color de texto suave */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    /* Efecto de hover para los botones */
+}
+
+
+footer {
+    background: linear-gradient(to right, #000000, #2770a1);
+    /* Degradado negro a blanco */
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
